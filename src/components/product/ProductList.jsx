@@ -1,4 +1,4 @@
-import { useActions } from "../../hooks/redux/actions";
+import { useActions } from "@/hooks/redux/actions";
 import ProductItem from "./ProductItem";
 
 const ProductList = ({ products }) => {

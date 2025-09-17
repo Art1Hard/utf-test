@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { useAppSelector } from "../../../hooks/redux";
-import { useActions } from "../../../hooks/redux/actions";
-import { MOCK_PRODUCTS } from "../../../constants/product.constants";
+import { useAppSelector } from "@/hooks/redux";
+import { useActions } from "@/hooks/redux/actions";
+import { MOCK_PRODUCTS } from "@/constants/product.constants";
 
 const useProducts = () => {
 	const products = useAppSelector((state) => state.product.products);

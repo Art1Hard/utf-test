@@ -1,4 +1,4 @@
-import { useAppSelector } from "../../hooks/redux";
+import { useAppSelector } from "@/hooks/redux";
 import CartItem from "./CartItem";
 
 const CartList = () => {

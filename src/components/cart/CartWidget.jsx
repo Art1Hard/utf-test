@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAppSelector } from "../../hooks/redux";
+import { useAppSelector } from "@/hooks/redux";
 import CartDropdown from "./CartDropdown";
 
 function CartWidget() {

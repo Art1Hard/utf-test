@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { useAppSelector } from "../../../hooks/redux";
-import { useActions } from "../../../hooks/redux/actions";
+import { useAppSelector } from "@/hooks/redux";
+import { useActions } from "@/hooks/redux/actions";
 
 const useCartDropdown = (closeCallback) => {
 	const totalPrice = useAppSelector((state) => state.cart.totalPrice);

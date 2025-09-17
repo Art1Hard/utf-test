@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useAppSelector } from "../../../hooks/redux";
-import { useActions } from "../../../hooks/redux/actions";
-import { MOCK_USER } from "../../../constants/user.constants";
+import { useAppSelector } from "@/hooks/redux";
+import { useActions } from "@/hooks/redux/actions";
+import { MOCK_USER } from "@/constants/user.constants";
 
 const useHeader = () => {
 	const user = useAppSelector((state) => state.user.user);

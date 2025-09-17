@@ -1,5 +1,5 @@
-import ProductWidget from "../components/product/ProductWidget";
-import CartWidget from "../components/cart/CartWidget";
+import ProductWidget from "@/components/product/ProductWidget";
+import CartWidget from "@/components/cart/CartWidget";
 
 const HomePage = () => {
 	return (

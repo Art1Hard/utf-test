@@ -1,4 +1,4 @@
-import { useActions } from "../../../hooks/redux/actions";
+import { useActions } from "@/hooks/redux/actions";
 
 const useCartItem = (item) => {
 	const { removeFromCart, updateQuantity } = useActions();
